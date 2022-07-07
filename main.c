@@ -28,5 +28,7 @@ int main(int argc, char *argv[]) {
       }
     }
   }
+  fclose(fp);
+  close(file_desc);
   return 0;
 }
